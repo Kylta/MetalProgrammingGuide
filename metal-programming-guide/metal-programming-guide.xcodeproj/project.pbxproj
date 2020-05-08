@@ -13,6 +13,7 @@
 		46149F7224655709008D3748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46149F7024655709008D3748 /* Main.storyboard */; };
 		46149F742465570A008D3748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46149F732465570A008D3748 /* Assets.xcassets */; };
 		46149F772465570A008D3748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46149F752465570A008D3748 /* LaunchScreen.storyboard */; };
+		46149F8424656381008D3748 /* HelloTriangleShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 46149F8324656381008D3748 /* HelloTriangleShaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		46149F732465570A008D3748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46149F762465570A008D3748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46149F782465570A008D3748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46149F8324656381008D3748 /* HelloTriangleShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = HelloTriangleShaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				46149F7F246557C2008D3748 /* Main */,
-				46149F6E24655709008D3748 /* HelloTriangleViewController.swift */,
+				46149F8024655B65008D3748 /* HelloTriangle */,
 				46149F7024655709008D3748 /* Main.storyboard */,
 				46149F7E246557B3008D3748 /* Supporting Files */,
 			);
@@ -81,6 +83,15 @@
 				46149F6C24655709008D3748 /* SceneDelegate.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		46149F8024655B65008D3748 /* HelloTriangle */ = {
+			isa = PBXGroup;
+			children = (
+				46149F6E24655709008D3748 /* HelloTriangleViewController.swift */,
+				46149F8324656381008D3748 /* HelloTriangleShaders.metal */,
+			);
+			path = HelloTriangle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +168,7 @@
 				46149F6F24655709008D3748 /* HelloTriangleViewController.swift in Sources */,
 				46149F6B24655709008D3748 /* AppDelegate.swift in Sources */,
 				46149F6D24655709008D3748 /* SceneDelegate.swift in Sources */,
+				46149F8424656381008D3748 /* HelloTriangleShaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
