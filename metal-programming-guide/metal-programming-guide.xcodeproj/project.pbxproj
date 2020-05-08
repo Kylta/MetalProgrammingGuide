@@ -56,15 +56,31 @@
 		46149F6924655709008D3748 /* metal-programming-guide */ = {
 			isa = PBXGroup;
 			children = (
-				46149F6A24655709008D3748 /* AppDelegate.swift */,
-				46149F6C24655709008D3748 /* SceneDelegate.swift */,
+				46149F7F246557C2008D3748 /* Main */,
 				46149F6E24655709008D3748 /* ViewController.swift */,
 				46149F7024655709008D3748 /* Main.storyboard */,
+				46149F7E246557B3008D3748 /* Supporting Files */,
+			);
+			path = "metal-programming-guide";
+			sourceTree = "<group>";
+		};
+		46149F7E246557B3008D3748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				46149F732465570A008D3748 /* Assets.xcassets */,
 				46149F752465570A008D3748 /* LaunchScreen.storyboard */,
 				46149F782465570A008D3748 /* Info.plist */,
 			);
-			path = "metal-programming-guide";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46149F7F246557C2008D3748 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				46149F6A24655709008D3748 /* AppDelegate.swift */,
+				46149F6C24655709008D3748 /* SceneDelegate.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GB5Q295YX5;
-				INFOPLIST_FILE = "metal-programming-guide/Info.plist";
+				INFOPLIST_FILE = "metal-programming-guide/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GB5Q295YX5;
-				INFOPLIST_FILE = "metal-programming-guide/Info.plist";
+				INFOPLIST_FILE = "metal-programming-guide/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
