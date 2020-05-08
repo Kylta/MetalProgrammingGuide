@@ -14,6 +14,9 @@
 		46149F742465570A008D3748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46149F732465570A008D3748 /* Assets.xcassets */; };
 		46149F772465570A008D3748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46149F752465570A008D3748 /* LaunchScreen.storyboard */; };
 		46149F8424656381008D3748 /* HelloTriangleShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 46149F8324656381008D3748 /* HelloTriangleShaders.metal */; };
+		46149F922465C71C008D3748 /* TwoDimDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46149F912465C71C008D3748 /* TwoDimDrawingViewController.swift */; };
+		46149F942465C866008D3748 /* vertexData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46149F932465C866008D3748 /* vertexData.swift */; };
+		46149F982465E627008D3748 /* TwoDimShaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 46149F972465E627008D3748 /* TwoDimShaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		46149F762465570A008D3748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46149F782465570A008D3748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		46149F8324656381008D3748 /* HelloTriangleShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = HelloTriangleShaders.metal; sourceTree = "<group>"; };
+		46149F912465C71C008D3748 /* TwoDimDrawingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoDimDrawingViewController.swift; sourceTree = "<group>"; };
+		46149F932465C866008D3748 /* vertexData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vertexData.swift; sourceTree = "<group>"; };
+		46149F972465E627008D3748 /* TwoDimShaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = TwoDimShaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			children = (
 				46149F7F246557C2008D3748 /* Main */,
 				46149F8024655B65008D3748 /* HelloTriangle */,
+				46149F8E2465C6E2008D3748 /* 2dDrawing */,
 				46149F7024655709008D3748 /* Main.storyboard */,
 				46149F7E246557B3008D3748 /* Supporting Files */,
 			);
@@ -92,6 +99,16 @@
 				46149F8324656381008D3748 /* HelloTriangleShaders.metal */,
 			);
 			path = HelloTriangle;
+			sourceTree = "<group>";
+		};
+		46149F8E2465C6E2008D3748 /* 2dDrawing */ = {
+			isa = PBXGroup;
+			children = (
+				46149F912465C71C008D3748 /* TwoDimDrawingViewController.swift */,
+				46149F932465C866008D3748 /* vertexData.swift */,
+				46149F972465E627008D3748 /* TwoDimShaders.metal */,
+			);
+			path = 2dDrawing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,9 +183,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				46149F6F24655709008D3748 /* HelloTriangleViewController.swift in Sources */,
+				46149F922465C71C008D3748 /* TwoDimDrawingViewController.swift in Sources */,
 				46149F6B24655709008D3748 /* AppDelegate.swift in Sources */,
+				46149F942465C866008D3748 /* vertexData.swift in Sources */,
 				46149F6D24655709008D3748 /* SceneDelegate.swift in Sources */,
 				46149F8424656381008D3748 /* HelloTriangleShaders.metal in Sources */,
+				46149F982465E627008D3748 /* TwoDimShaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
