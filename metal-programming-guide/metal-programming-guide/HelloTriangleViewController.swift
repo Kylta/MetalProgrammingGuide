@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HelloTriangleViewController.swift
 //  metal-programming-guide
 //
 //  Created by Christophe Bugnon on 5/8/20.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HelloTriangleViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
